@@ -1,3 +1,4 @@
+
 import type { Metadata, Viewport } from 'next'
 import { Inter_Tight, Instrument_Serif } from 'next/font/google'
 import { IntroProvider } from '@/components/motion/intro-provider'
@@ -25,7 +26,12 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ct-sanjay-portfolio.sanjayct9.workers.dev'),
+  metadataBase: new URL('https://ct-sanjay-portfolio-new.sanjayct9.workers.dev'),
+
+  verification: {
+    google: 'L19S30swK7mQIAlRz6nikCdBO4Iz73ghee9NwqPYpr4',
+  },
+
   title: {
     default: 'CT Sanjay | Freelance Website Developer & Creative Developer',
     template: '%s — CT Sanjay',
