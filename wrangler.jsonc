@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "ct-sanjay-portfolio",
+  "name": "ct-sanjay-portfolio-new",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-11-24",
   "compatibility_flags": ["nodejs_compat"],
